@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+        android:background="@drawable/k3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/photo"
+        android:layout_width="136dp"
+        android:layout_height="122dp"
+        android:layout_below="@+id/photo2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-400dp"
+        android:layout_marginEnd="100dp"
+        android:src="@drawable/pyro" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/photo2"
+        android:layout_width="136dp"
+        android:layout_height="122dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="500dp"
+        android:src="@drawable/scarlxrd" />
+
+        <TextView
+        android:id="@+id/nama"
+        android:layout_width="203dp"
+        android:layout_height="33dp"
+
+        android:layout_below="@+id/photo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="65dp"
+        android:text="M Faisal Safwan D"
+        android:textColor="#FFE603"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+        <TextView
+        android:id="@+id/nama2"
+        android:layout_width="203dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/photo2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-490dp"
+        android:layout_marginEnd="65dp"
+        android:text="Aryo Wahyu Satria"
+        android:textColor="#03FFCD"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+
+    </RelativeLayout>
+

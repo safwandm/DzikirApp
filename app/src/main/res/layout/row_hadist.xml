@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="20dp"
+    tools:context=".Hadist">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/judul_hadist"
+        android:text="hadist"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/ayat"
+        android:layout_width="450dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:layout_below="@id/judul_hadist"
+        android:text="وَجَزَاءُ سَيِّئَةٍ سَيِّئَةٌ مِثْلُهَا فَمَنْ عَفَا وَأَصْلَحَ فَأَجْرُهُ عَلَى اللَّهِ إِنَّهُ لَا يُحِبُّ الظَّالِمِينَ"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:id="@+id/ARTI"
+        android:textColor="#000000"
+        android:layout_below="@+id/ayat"
+        android:text="“Dan balasan suatu kejahatan adalah kejahatan yang serupa, maka barang siapa memaafkan dan berbuat baik, maka pahalanya atas (tanggungan) Allah. Sesungguhnya Dia tidak menyukai orang-orang yang zalim.” (QS. Asy Syuura: 40)."
+        android:textSize="18sp"/>
+
+
+
+</RelativeLayout>
